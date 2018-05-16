@@ -47,14 +47,3 @@ examples = ['Free offer for mobile phone discounts', 'Hey, John how are you ?']
 example_counts = vectorizer.transform(examples)
 predictions = classifier.predict(example_counts)
 print(predictions)
-
-
-
-
-
-
-
-
-
-
-
